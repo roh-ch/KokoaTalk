@@ -3,6 +3,10 @@
   justify-content: center;
   align-items: center;
   padding: 5px 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
 }
 
 .status-bar__column {
@@ -76,4 +80,14 @@
 
 .status-bar__column:last-child .fa-battery-full {
   color: #12f313;
+}
+
+.status-bar__column:last-child .fa-bluetooth-b {
+  color: blue;
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+.status-bar__column:last-child .fa-bell {
+  margin-right: 5px;
 }
