@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats</title>
+    <title>Find</title>
   </head>
   <body>
     <div id="status-bar">
@@ -25,7 +25,7 @@
     </div>
 
     <header Class="screen-header">
-      <h1 class="screen-header__title">채팅</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="fas fa-user-plus fa-lg"></i></span>
@@ -35,54 +35,22 @@
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="pic/어피치.jpg"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">해피치</h4>
-            <h6 class="user-component__subtitle">엉미야 머해애애애애~~~~</h6>
-          </div>
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">05:23</span>
-          <div class="user-component__red-circle">1</div>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
         </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="pic/도라에몽.png"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">도라에몽</h4>
-            <h6 class="user-component__subtitle">에몽아 생일축하해!!!</h6>
-          </div>
+        <div class="find-icons__icon">
+          <i class="fas fa-fingerprint"></i>
+          <span>Add by ID</span>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">12:34</span>
-          <div></div>
-        </div>
-      </div>
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="pic/초파.png"
-            class="user-component__avatar user-component__avatar"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">토니토니 초파</h4>
-            <h6 class="user-component__subtitle">
-              응! 코로나 잠잠해지면 맛있는거 먹자~~
-            </h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="user-component__time">07:00</span>
-          <div class="user-component__red-circle">1</div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
         </div>
       </div>
     </main>
@@ -97,7 +65,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification">?</span>
-            <i class="fas fa-comment-dots fa-2x"></i>
+            <i class="far fa-comment-dots fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
