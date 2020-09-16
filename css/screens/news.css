@@ -1,0 +1,138 @@
+.news {
+  margin: 50px 25px 0px 25px;
+}
+
+.news-title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 13px;
+}
+
+.news-title span {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.news-title span:nth-child(4) {
+  font-weight: 800;
+  border: 2px solid #fae301;
+}
+
+.news-shopping {
+  margin: 0px 25px;
+}
+.news-shopping__goods {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-shopping__goods img {
+  width: 220px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.news-shopping__goods__1 {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  position: relative;
+}
+
+.news-shopping__title {
+  margin: 5px 3px 0px 3px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.news-shopping__subtitle {
+  font-size: 11px;
+  opacity: 0.8;
+  line-height: 20px;
+  margin-left: 3px;
+}
+
+.news-more {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0px;
+  text-align: center;
+  background-color: snow;
+}
+.news-more span {
+  font-weight: 600;
+  margin: 0px 10px;
+}
+
+.news-more span:first-child {
+  color: red;
+  border: 1px solid tomato;
+  border-radius: 5px;
+  padding: 1px;
+}
+.news-more i {
+  font-size: 10px;
+  opacity: 0.8;
+  margin-left: -8px;
+}
+.news-more span:nth-child(6) {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.news-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-red-sq1 {
+  background-color: tomato;
+  padding: 5px 0px;
+  width: 35px;
+  border-radius: 8px;
+  position: absolute;
+  color: white;
+  right: 5px;
+  top: 5px;
+  font-size: 13px;
+  text-align: center;
+}
+.news-red-sq2 {
+  background-color: tomato;
+  padding: 5px 0px;
+  width: 35px;
+  border-radius: 8px;
+  position: absolute;
+  color: white;
+  right: 5px;
+  top: 30px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.news-search {
+  margin: 100px 25px;
+  border: 3px solid #fae301;
+  border-radius: 20px;
+  padding: 13px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-search input {
+  border: none;
+  width: 90%;
+}
+
+.news-search .fa-hashtag {
+  color: #fae527;
+}
+
+.news-search .fa-search {
+  opacity: 0.6;
+}
