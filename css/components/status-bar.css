@@ -32,49 +32,11 @@
   margin: 0 5px;
 }
 
-@keyframes wifimove {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.2;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .status-bar__column:first-child i {
-  animation: wifimove 4s ease-out infinite;
   color: blue;
 }
 
-@keyframes boltmove {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0.1;
-  }
-  50% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 0.1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .status-bar__column:last-child .fa-bolt {
-  animation: boltmove 4s ease-out infinite;
   color: #fae301;
 }
 
